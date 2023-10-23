@@ -1,0 +1,96 @@
+@import url("https://rsms.me/inter/inter.css");
+
+* {
+    font-family: "Inter", sans-serif;
+    background-color: #0C0B0B;
+    color: #FFFFFF;
+}
+
+.no-ul-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    background-color: #FFFFFF;
+    color: #0C0B0B;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+}
+
+.button-outline {
+    background: none;
+    border: 1px solid #777777;
+    color: #FFFFFF;
+}
+
+.hr-line {
+    height: 1px;
+    border-width: 0rem;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    opacity: 20%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff23;
+    padding: 1rem;
+}
+
+.logo-heading {
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    font-size: .9rem;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+body {
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/Images/bgImage.png);
+    width: 100%;
+    height: 100vh;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    align-items: center;
+    padding-top: 5rem;
+
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-buttons a {
+    display: block;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-align: center;
+}
